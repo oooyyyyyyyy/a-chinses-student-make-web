@@ -28,11 +28,6 @@ def index (name=None):
     return render_template('index.html',name=name,time=time)
 
 
-@app.route('/daima')
-
-def get_yuan():
-
-    return render_template('yuan.html')
 
 if __name__ == '__main__':
 
